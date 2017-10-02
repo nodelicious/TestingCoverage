@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_green_light"
+    tools:context="in.shgupta.testingcoverage.MainActivity">
+
+    <LinearLayout
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="kilometer"
+            android:gravity="center"
+            android:id="@+id/etkm"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="minutes"
+            android:gravity="center"
+            android:id="@+id/etmin"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CAlculate fare"
+            android:id="@+id/btncalc"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="result"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:id="@+id/tvresult"/>
+
+    </LinearLayout>
+
+
+</FrameLayout>
